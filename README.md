@@ -1,8 +1,8 @@
-## Welcome to GitHub Pages
+### Google sheets
 
-You can use the [editor on GitHub](https://github.com/suni619/cs/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Custom formula | Objective
+---------------|------------
+`=IF(SEARCH(">",$A1) = 1, TRUE)` | Starts with > 
 
 ### Markdown
 
