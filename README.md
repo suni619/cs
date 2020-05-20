@@ -4,6 +4,13 @@ Custom formula | Objective
 ---------------|------------
 `=IF(SEARCH(">",$A1) = 1, TRUE)` | Starts with > 
 
+### Text file processing
+
+Command | Objective
+--------|----------
+`sed '/pattern/d' <file>` | Delete lines containing `pattern` and print to `stdout`
+`sed -i '' '/pattern/d' <file>` | Delete lines containing `pattern` and overwrite the `<file>` (works for BSD - Mac) 
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
