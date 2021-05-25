@@ -3,6 +3,7 @@
 Custom formula | Objective
 ---------------|------------
 `=IF(SEARCH(">",$A1) = 1, TRUE)` | Starts with > 
+`=$A1 = "pattern"` | If column A equals 'pattern', apply rule to selected cells 
 
 ### Text file processing
 
